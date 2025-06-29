@@ -1,4 +1,4 @@
-name: connectorspy
+name: pyconnector
 
 on:
   # release:
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/connectorspy
+      url: https://pypi.org/p/pyconnector
     permissions:
       id-token: write # Required for trusted publishing
 
