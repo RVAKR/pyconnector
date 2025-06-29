@@ -12,7 +12,7 @@ license = { text = "MIT" }
 requires-python = ">=3.7"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/connectpy"
+Homepage = "https://github.com/RVAKR/connectpy"
 
 
 [tool.setuptools]
