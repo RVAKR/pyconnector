@@ -1,6 +1,6 @@
-# 🔌 connectpy
+# 🔌 pyconnector
 
-**Connectpy** is a flexible, pluggable Python package designed to connect seamlessly to popular databases and services including Databricks, PostgreSQL, SMTP, and SFTP — using JDBC, ODBC, or native protocols.
+**pyconnector** is a flexible, pluggable Python package designed to connect seamlessly to popular databases and services including Databricks, PostgreSQL, SMTP, and SFTP — using JDBC, ODBC, or native protocols.
 
 ## ✨ Features
 
@@ -13,7 +13,7 @@
 ## 📦 Installation
 
 ```bash
-pip install connectpy
+pip install pyconnector
 
 
 # 🔌 Included Connectors

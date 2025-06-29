@@ -1,4 +1,4 @@
 .venv/
 dist/
 __pycache__
-connectpy.egg-info
+pyconnector.egg-info

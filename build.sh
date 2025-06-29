@@ -15,12 +15,12 @@ echo "🧼 Cleaning old builds"
 rm -rf build dist *.egg-info
 find . -type d -name __pycache__ -exec rm -rf {} +
 
-echo "📦 Building connectpy package"
+echo "📦 Building pyconnector package"
 python -m build
 
-echo "📥 Installing connectpy"
-pip install dist/connectpy-*.whl
+echo "📥 Installing pyconnector"
+pip install dist/pyconnector-*.whl
 
 echo "🧪 Testing import"
-python -c "from connectpy.postgres.connector import PostgresConnector; print('✅ PostgresConnector imported')"
-python -c "from connectpy.databricks.connector import DatabricksConnector; print('✅ DatabricksConnector imported')"
+python -c "from pyconnector.postgres.connector import PostgresConnector; print('✅ PostgresConnector imported')"
+python -c "from pyconnector.databricks.connector import DatabricksConnector; print('✅ DatabricksConnector imported')"

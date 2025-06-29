@@ -1,4 +1,4 @@
-from connectpy.driver_utils import get_driver
+from pyconnector.driver_utils import get_driver
 import pyodbc
 
 class PostgresODBCConnector:
