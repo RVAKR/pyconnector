@@ -1,5 +1,6 @@
 import requests
 
+
 class DatabricksAPIConnector:
     def __init__(self, token: str, workspace_url: str):
         if not token or not workspace_url:
