@@ -18,8 +18,10 @@ pip install pyconnector
 
 # 🔌 Included Connectors
 Databricks
+MySql
+Postgres
 
-JDBC Connector
+JDBC API, SQL. JDBc. ODBC Connector 
 
 ODBC Connector
 
@@ -37,6 +39,7 @@ SFTP
 
 File upload/download over SSH
 
+SHAREPOINT API Connector
 
 
 #  Driver Management
