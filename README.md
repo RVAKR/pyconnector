@@ -3,6 +3,7 @@
 **pyconnector** is a flexible, pluggable Python package designed to connect seamlessly to popular databases and services including Databricks, PostgreSQL, SMTP, and SFTP — using JDBC, ODBC, or native protocols.
 
 # Structure
+<pre>
 .
 |-- LICENSE
 |-- README.md
@@ -51,7 +52,7 @@
 `-- token_gmail.pickle
 
 11 directories, 35 files
-
+</pre>
 
 ## ✨ Features
 

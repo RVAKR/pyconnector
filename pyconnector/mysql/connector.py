@@ -1,5 +1,5 @@
 from mysql import connector
-from pyconnector.core.base_google_connector import BaseDBConnector
+from pyconnector.core.base_db_connector import BaseDBConnector
 
 class MySqlConnector(BaseDBConnector):
     def __init__(self, user: str, password: str, host: str = 'localhost', port: int = 3306, database: str=None):
