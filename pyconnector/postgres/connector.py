@@ -1,7 +1,7 @@
 from psycopg2 import connect as connector
-from core.base_connector import BaseConnector
+from pyconnector.core.base_google_connector import BaseDBConnector
 
-class PostgresConnector(BaseConnector):
+class PostgresConnector(BaseDBConnector):
     def __init__(self, user: str, password: str, host: str = 'localhost', port: int = 5432, database: str=None):
         if not user or not password or not host:
             raise ValueError("user, password, host are required.")

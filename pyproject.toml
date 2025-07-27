@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyconnector"
-version = "0.2.1"
+version = "0.3.0"
 description = "Pluggable connectors for databases and services like Databricks, Postgres, SMTP, SFTP"
 readme = "README.md"
 authors = [{ name = "rvakr", email = "contactmail.br@gmail.com" }]
