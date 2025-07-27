@@ -1,5 +1,5 @@
 
-class BaseConnector:
+class BaseDBConnector:
     """Base class for database connectors."""
     def __init__(self, host, port, user, password, database=None):
         self.host = host
