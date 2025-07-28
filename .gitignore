@@ -5,4 +5,7 @@ pyconnector.egg-info
 test/
 
 # development
+token_gmail.pickle
+token.pickle
+
 README.dev.md

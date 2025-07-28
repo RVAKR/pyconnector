@@ -1,5 +1,5 @@
 from psycopg2 import connect as connector
-from pyconnector.core.base_google_connector import BaseDBConnector
+from pyconnector.core.base_db_connector import BaseDBConnector
 
 class PostgresConnector(BaseDBConnector):
     def __init__(self, user: str, password: str, host: str = 'localhost', port: int = 5432, database: str=None):
