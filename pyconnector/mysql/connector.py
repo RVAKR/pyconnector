@@ -1,4 +1,5 @@
 from mysql import connector
+
 from pyconnector.core.base_db_connector import BaseDBConnector
 
 class MySqlConnector(BaseDBConnector):
